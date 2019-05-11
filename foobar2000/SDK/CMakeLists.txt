@@ -132,5 +132,5 @@ set(SDK_SOURCES
 )
 
 add_definitions(-Zm300)
-enable_precompiled_headers("foobar2000.h" SDK_SOURCES)
+##enable_precompiled_headers("foobar2000.h" SDK_SOURCES)
 add_library(SDK STATIC ${SDK_SOURCES})

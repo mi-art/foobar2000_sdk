@@ -17,7 +17,7 @@ set(SAMPLE_SOURCES
 )
 
 add_definitions(-Zm300)
-enable_precompiled_headers("stdafx.h" SAMPLE_SOURCES)
+##enable_precompiled_headers("stdafx.h" SAMPLE_SOURCES)
 add_library(foo_sample SHARED ${SAMPLE_SOURCES})
 target_link_libraries(foo_sample
 	foobar2000_component_client

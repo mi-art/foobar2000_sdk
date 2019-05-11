@@ -70,5 +70,5 @@ set(HELPERS_SOURCES
 )
 
 add_definitions(-Zm300)
-enable_precompiled_headers("StdAfx.h" HELPERS_SOURCES)
+##enable_precompiled_headers("StdAfx.h" HELPERS_SOURCES)
 add_library(helpers STATIC ${HELPERS_SOURCES})
