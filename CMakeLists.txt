@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.10.20130415)
 project(foobar2000-${CMAKE_GENERATOR_TOOLSET})
 add_definitions(-DUNICODE=1 -D_UNICODE=1 -D_WIN32_WINNT=0x501 -DBOOST_ALL_NO_LIB=1)
-set(USER_COMPONENTS_DIR ${CMAKE_CURRENT_BINARY_DIR}/portable/user-components/)
+set(USER_COMPONENTS_DIR ${CMAKE_CURRENT_BINARY_DIR}/../../FB2K/user-components/)
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
 set(FB2K_STATIC_RUNTIME "OFF" CACHE BOOL "Semicolon separated list of component names")
