@@ -1,19 +1,19 @@
 include_directories(${WTL_INCLUDE_DIRS})
 
 set(SAMPLE_SOURCES
-	"contextmenu.cpp"
-	"decode.cpp"
+	# "contextmenu.cpp"
+	# "decode.cpp"
 	"dsp.cpp"
 	"foo_sample.rc"
-	"initquit.cpp"
-	"input_raw.cpp"
+	# "initquit.cpp"
+	# "input_raw.cpp"
 	"main.cpp"
-	"mainmenu.cpp"
-	"playback_state.cpp"
-	"preferences.cpp"
+	# "mainmenu.cpp"
+	# "playback_state.cpp"
+	# "preferences.cpp"
 	"resource.h"
 	"stdafx.h"
-	"ui_element.cpp"
+	# "ui_element.cpp"
 )
 
 add_definitions(-Zm300)
