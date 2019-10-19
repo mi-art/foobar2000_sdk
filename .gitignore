@@ -1,2 +1,4 @@
 *.sublime-*
 foobar2000/foo_wave_seekbar
+build
+**/.vscode
